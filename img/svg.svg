@@ -1,0 +1,7 @@
+<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5 h-5 ml-2 -mr-1">
+
+ <g>
+  <title>Layer 1</title>
+  <path transform="rotate(-90 9.99989 9.99396)" id="svg_1" clip-rule="evenodd" d="m10.293,3.293a1,1 0 0 1 1.414,0l6,6a1,1 0 0 1 0,1.414l-6,6a1,1 0 0 1 -1.414,-1.414l4.293,-4.293l-11.586,0a1,1 0 1 1 0,-2l11.586,0l-4.293,-4.293a1,1 0 0 1 0,-1.414z" fill-rule="evenodd"/>
+ </g>
+</svg>
