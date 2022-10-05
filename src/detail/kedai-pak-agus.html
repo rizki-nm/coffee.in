@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee.in</title>
+    <link rel="stylesheet" href="../../dist/output.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th {
+            text-align: left;
+            font-size: 18px;
+        }
+        td {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50">
+
+    <!-- Navbar -->
+    <section class="border-b border-primary bg-secondary  sticky top-0 z-50">
+        <nav class="relative container mx-auto p-6">
+            <!-- Flex container -->
+            <div class="flex items-center justify-between lg:justify-around">
+                <!-- Logo -->
+                <div class="m-0 pb-1">
+                    <h1 class="text-primary text-xl font-bold uppercase">coffee.in</h1>
+                </div>
+                <!-- Menu Items -->
+                <div class="hidden space-x-20 md:flex m-0 p-0 font-semibold">
+                    <a href="../../index.html" class="text-primary hover:text-tertiary">Home</a>
+                    <a href="../../index.html#list-coffee" class="text-primary hover:text-tertiary">Coffee Shop</a>
+                    <a href="#footer" class="text-primary hover:text-tertiary">About Us</a>
+                </div>
+                <div>
+
+                </div>
+
+                <!-- Hamburger Icon -->
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="md:hidden">
+                <div id="menu"
+                     class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-semibold bg-secondary sm:w-auto sm:self-center left-6 right-6 drop-shadow-md border border-primary rounded-b-lg">
+                    <a href="../../index.html">Home</a>
+                    <a href="../../index.html#list-coffee">Coffee Shop</a>
+                    <a href="#footer">About Us</a>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- End Navbar -->
+
+    <!-- Coffee Shop Detail -->
+    <section class="bg-gradient-to-b from-slate-50 via-secondary to-slate-50 lg:py-20">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div class="mr-auto lg:col-span-7 pt-10 lg:pt-0 lg:grid-cols-4">
+                <h1
+                        class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-slate-800">
+                    Kedai Pak Agoes</h1>
+                <p class="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-slate-500">Jl. Bukit Palm Raya, Sukorejo, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50221</p>
+                <ul class="flex justify-start">
+                    <li>
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="w-4 text-yellow-500 mr-1" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                            <path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path>
+                        </svg>
+                    </li>
+                </ul>
+
+                <hr class="my-10 border-gray-200 sm:mx-auto lg:my-8" />
+
+                <div>
+                    <h1 class="text-2xl underline decoration-sky-500 font-bold">Menu</h1>
+                    <br>
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <th>Harga</th>
+                        </tr>
+                        <tr>
+                            <td>Espresso</td>
+                            <td>5K</td>
+                        </tr>
+                        <tr>
+                            <td>Americano</td>
+                            <td>13k</td>
+                        </tr>
+                        <tr>
+                            <td>Caffe Latte</td>
+                            <td>18k</td>
+                        </tr>
+                        <tr>
+                            <td>Cappuccino</td>
+                            <td>18K</td>
+                        </tr>
+                        <tr>
+                            <td>Mocchachinno</td>
+                            <td>20K</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="pt-32 lg:pt-0 lg:mt-0 lg:col-span-5 grid grid-cols-12 gap-8">
+                <img src="../../img/kedai-pak-agus/1.jpeg" alt="hero" class="rounded-3xl shadow-2xl" width="400" height="400">
+                <img src="../../img/kedai-pak-agus/2.jpeg" alt="hero" class="rounded-3xl shadow-2xl" width="400" height="400">
+                <img src="../../img/kedai-pak-agus/3.jpeg" alt="hero" class="rounded-3xl shadow-2xl" width="400" height="400">
+                <img src="../../img/kedai-pak-agus/4.jpeg" alt="hero" class="rounded-3xl shadow-2xl" width="400" height="400">
+                <img src="../../img/kedai-pak-agus/5.jpeg" alt="hero" class="rounded-3xl shadow-2xl" width="400" height="400">
+                <img src="../../img/kedai-pak-agus/6.jpeg" alt="hero" class="rounded-3xl shadow-2xl" width="400" height="400">
+            </div>
+        </div>
+    </section>
+    <!-- Coffee Shop Detail -->
+
+    <!-- Footer -->
+    <footer class="p-4 md:p-20 mt-16 bg-gradient-to-br from-primary via-tertiary to-secondary" id="footer">
+        <div class="mx-auto max-w-screen-xl">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="flex items-center">
+                            <span class="uppercase self-center text-4xl font-extrabold whitespace-nowrap dark:text-white">
+                                Coffee.in
+                            </span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-1 gap-8">
+                    <div>
+                        <a href="#"
+                           class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-tertiary shadow-lg shadow-primary border border-primary">
+                            <img src="../../img/svg.svg" alt="" class="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-10 border-gray-200 sm:mx-auto lg:my-8" />
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+<script src="../../js/script.js"></script>
+</body>
+
+</html>
